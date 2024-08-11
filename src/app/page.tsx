@@ -108,7 +108,7 @@ export default function Home() {
               className={`w-60 absolute top-[500px] -right-32 border-2 border-[#D7B89C] shadow-md shadow-[#D7B89C] bg-[#D4F6FD] rounded-lg text-[#D7B89C] p-4 z-50`}
             >
               <Image alt={``} src={`/cleya.jpg`} width={300} height={300}/>
-              <p className={`text-center mt-4`}>Happy Happiest 9th Birthday!</p>
+              <p className={`text-center mt-4`}>Happy Happiest 9th Birthday, Cleya!</p>
             </motion.div>
           </div>
           <div className={`mt-96`}/>
