@@ -60,7 +60,7 @@ export default function Home() {
       </div>
       {show && (
         <div
-          className={`flex min-h-screen flex-col items-center justify-start py-20`}
+          className={`flex min-h-screen flex-col items-center justify-start pt-20 pb-96`}
           id={"wishes"}
         >
           <motion.div
@@ -101,8 +101,17 @@ export default function Home() {
               JKT48
               <br />- Ko Jerrie
             </motion.div>
+            <motion.div
+              initial={{ opacity: 0, }}
+              animate={{ opacity: 100 }}
+              transition={{ delay: 5, duration: 2 }}
+              className={`w-60 absolute top-[500px] -right-32 border-2 border-[#D7B89C] shadow-md shadow-[#D7B89C] bg-[#D4F6FD] rounded-lg text-[#D7B89C] p-4 z-50`}
+            >
+              <Image alt={``} src={`/cleya.jpg`} width={300} height={300}/>
+              <p className={`text-center mt-4`}>Happy Happiest 9th Birthday!</p>
+            </motion.div>
           </div>
-          <div></div>
+          <div className={`mt-96`}/>
         </div>
       )}
     </main>
